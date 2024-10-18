@@ -1,0 +1,57 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity fibonacci is
+port(
+	data_out:	out	std_logic_vector (7 downto 0) := (others => '0');
+	clock	:		in		std_logic
+);
+ 
+end entity fibonacci;
+ 
+ 
+architecture rtl of fibonacci is
+ 
+type t_memory is array (65535 downto 0) of std_logic_vector(15 downto 0);
+signal memory: t_memory;
+
+signal data_in : std_logic_vector (15 downto 0):= ('0000000000000001');
+
+signal a : std_logic;
+signal b : std_logic;
+signal c : std_logic;
+signal d : std_logic;
+
+signal xor1 : std_logic;
+signal xor2 : std_logic;
+signal xor3 : std_logic;
+
+
+ 
+begin
+ 
+	process (clock) is
+ 
+	begin
+	
+		if rising_edge(clock) then
+		
+			a <= data_in(0);
+			b <= data_in(2);
+			c <= data_in(4);
+			d <= data_in(6);
+			
+			xor1 <= a xor b;
+			xor2 <= xor1 xor c;
+			xor3 <= xor2 xor d;
+			
+			data_in <= data_in & 'xor3'(14 downto 1);  -- Siirretään bittijonoa oikealle
+			
+			data_out <= data_in(15 downto 8);
+	
+		end if;
+ 
+	end process;
+ 
+end architecture rtl;

@@ -1,0 +1,110 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa
+T_opt
+!s110 1726761276
+V0cZSz:[35_3j9@Y6k:Tj_2
+04 16 13 work bitshift_vhd_tst bitshift_arch 1
+=1-c0185030014f-66ec493a-33b-526c
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ebitshift
+Z2 w1726760782
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z7 8C:/Users/Joona/Documents/Quartus_/week4/teht1/bitshift.vhd
+Z8 FC:/Users/Joona/Documents/Quartus_/week4/teht1/bitshift.vhd
+l0
+L6 1
+VU]:ZUDdAF6YB1=a?7AT601
+!s100 h=[Ua`435k<6JLCA6i`A_0
+Z9 OL;C;2021.2;73
+31
+Z10 !s110 1726760885
+!i10b 1
+Z11 !s108 1726760884.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week4/teht1/bitshift.vhd|
+Z13 !s107 C:/Users/Joona/Documents/Quartus_/week4/teht1/bitshift.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R3
+R4
+R5
+R6
+DEx4 work 8 bitshift 0 22 U]:ZUDdAF6YB1=a?7AT601
+!i122 0
+l19
+L14 45
+Vkjl6m7TjMe_^WFPTK`Tng1
+!s100 D7E9dV51`hMPY]^z]e<S]3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ebitshift_vhd_tst
+Z16 w1726761263
+R5
+R6
+!i122 7
+R1
+Z17 8C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+Z18 FC:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+l0
+L31 1
+VfP429l3>c;SOVbO3_hb:H1
+!s100 <g8bzGQa90C3CBofzf^lz1
+R9
+32
+Z19 !s110 1726761269
+!i10b 1
+Z20 !s108 1726761269.000000
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht|
+Z22 !s107 C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht|
+!i113 0
+Z23 o-work work
+R15
+Abitshift_arch
+R5
+R6
+DEx4 work 16 bitshift_vhd_tst 0 22 fP429l3>c;SOVbO3_hb:H1
+!i122 7
+l50
+L33 56
+VURzBP=080ojOnl?Hf1PMz3
+!s100 RhClfNQ@M:_3[neJ6cQ^h0
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R23
+R15

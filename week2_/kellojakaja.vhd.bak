@@ -1,0 +1,32 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Entiteetti: määrittelee modulin rajapinnan
+entity kellojakaja is
+    Port (
+        clk   : in STD_LOGIC;                -- Kello
+        led   : out STD_LOGIC_VECTOR(1 downto 0)  -- Lähtö
+    );
+end kellojakaja;
+
+-- Arkkitehtuuri: määrittelee toiminnallisuuden
+architecture Behavioral of kellojakaja is
+
+    -- Signaalien määrittelyt
+    signal led_internal : STD_LOGIC_VECTOR(1 downto 0) := "00"; -- Alustus
+
+begin
+
+    -- Ohjataan sisäinen signaali porttiin
+    led <= led_internal;
+
+    -- Prosessi, joka toimii kellosignaalin nousureunan mukaan
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            -- Kellon nousevan reunan toiminnallisuus
+            led_internal <= not led_internal;  -- Vaihtaa tilaa "10" ja "01"
+        end if;
+    end process;
+
+end Behavioral;

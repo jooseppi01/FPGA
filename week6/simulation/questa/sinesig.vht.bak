@@ -1,0 +1,107 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all; -- Use for conversions (optional, depending on your simulator)
+USE ieee.std_logic_unsigned.all; -- Optional if you want unsigned arithmetic
+USE std.textio.all;  -- Required for file I/O
+
+ENTITY sinesig_vhd_tst IS
+END sinesig_vhd_tst;
+
+ARCHITECTURE sinesig_arch OF sinesig_vhd_tst IS
+    -- Signal declarations
+    SIGNAL clk      : STD_LOGIC := '0';
+    SIGNAL reset    : STD_LOGIC := '0';
+    SIGNAL sine_out : STD_LOGIC_VECTOR(7 DOWNTO 0);
+	 SIGNAL sine_in : STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+    -- Type and signal declarations for the sine table
+    TYPE t_sin_table IS ARRAY (0 TO 1023) OF std_logic_vector(7 DOWNTO 0);
+    SIGNAL sin_table : t_sin_table;
+
+    FILE sine_file  : text;
+
+    COMPONENT sinesig
+        PORT (
+            clk      : IN  STD_LOGIC;
+            reset    : IN  STD_LOGIC;
+            sine_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+				sine_in : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+        );
+    END COMPONENT;
+
+BEGIN
+    -- Instantiate the Unit Under Test (UUT)
+    i1 : sinesig
+        PORT MAP (
+            clk      => clk,
+            reset    => reset,
+            sine_out => sine_out,
+				sine_in => sine_in
+        );
+
+    -- Initialization process for reading the sine table from the file
+    init : PROCESS
+        VARIABLE vdatainline : line;
+        VARIABLE vdatain     : string(1 TO 8);
+        VARIABLE index       : INTEGER := 0;
+    BEGIN
+        -- Open the sine wave lookup table file
+        file_open(sine_file, "C:\Users\Joona\Documents\Quartus_\week6\simulation\questa\lut.txt.txt", READ_MODE);
+        wait for 10 ns;
+
+        -- Read the sine values from the file and load them into the sin_table
+        WHILE NOT endfile(sine_file) LOOP
+            readline(sine_file, vdatainline);  -- Read one line from the file
+            read(vdatainline, vdatain);        -- Read the 8-bit value
+            FOR i IN 1 TO 8 LOOP
+				  if vdatain(i) = '0' THEN
+						sin_table(index)(8-i) <= '0';
+				  ELSE
+						sin_table(index)(8-i) <= '1';
+				  END IF;
+			 END LOOP;
+            index := index + 1;
+            IF index = 1024 THEN
+                EXIT;  -- Stop if we’ve filled the sin_table
+            END IF;
+        END LOOP;
+
+        file_close(sine_file);  -- Close the file
+
+        -- Apply reset to the UUT
+        reset <= '1';
+        wait for 20 ns;
+        reset <= '0';
+
+        WAIT;  -- Wait indefinitely after initialization
+    END PROCESS init;
+
+    -- Test process to cycle through the sine_table
+    test : PROCESS
+        VARIABLE idx : INTEGER := 0;
+    BEGIN
+        wait for 30 ns;  -- Wait for initialization
+        -- Loop through the sine table and assign values to sine_out
+        FOR i IN 0 TO 1023 LOOP
+            sine_in <= sin_table(idx);  -- Update sine_out with table values
+            idx := idx + 1;
+            wait for 20 ns;  -- Wait for 1 clock cycle
+        END LOOP;
+        WAIT;  -- Wait indefinitely after test
+    END PROCESS test;
+
+    -- Clock generation process
+    always : PROCESS
+    BEGIN
+        LOOP
+            clk <= '0';
+            wait for 10 ns;
+            clk <= '1';
+            wait for 10 ns;
+        END LOOP;
+    END PROCESS always;
+
+END sinesig_arch;
+
+
+

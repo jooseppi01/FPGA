@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joona/Documents/Quartus_/week2_/teht_3/simulation/questa
+T_opt
+!s110 1725794105
+VOWhU9j?amFdF2N[XXCcmQ1
+04 21 18 work multiplekseri_vhd_tst multiplekseri_arch 1
+=1-c0185030014f-66dd8738-24e-5840
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Emultiplekseri
+Z1 w1725531026
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/Joona/Documents/Quartus_/week2_/teht_3/multiplekseri.vhd
+Z6 FC:/Users/Joona/Documents/Quartus_/week2_/teht_3/multiplekseri.vhd
+l0
+L5 1
+V01XDf2LUNiL2B@9VReL]Q0
+!s100 ZBP?ZoW59;Fh?;<S966j_1
+Z7 OL;C;2021.2;73
+31
+Z8 !s110 1725794088
+!i10b 1
+Z9 !s108 1725794088.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week2_/teht_3/multiplekseri.vhd|
+Z11 !s107 C:/Users/Joona/Documents/Quartus_/week2_/teht_3/multiplekseri.vhd|
+!i113 0
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 multiplekseri 0 22 01XDf2LUNiL2B@9VReL]Q0
+!i122 0
+l14
+L13 19
+VPU_d@zoTj9Yk>:anbhk6G3
+!s100 9e=kJgPQjjB0;cb7m5A3e0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Emultiplekseri_vhd_tst
+Z14 w1725569877
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/Joona/Documents/Quartus_/week2_/teht_3/simulation/questa/multiplekseri.vht
+Z16 FC:/Users/Joona/Documents/Quartus_/week2_/teht_3/simulation/questa/multiplekseri.vht
+l0
+L4 1
+V6gHK3eDhK@I@J@@`Q6InY1
+!s100 9<<V[2P`ZXfmTCo6=QfE21
+R7
+32
+Z17 !s110 1725794099
+!i10b 1
+Z18 !s108 1725794099.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week2_/teht_3/simulation/questa/multiplekseri.vht|
+Z20 !s107 C:/Users/Joona/Documents/Quartus_/week2_/teht_3/simulation/questa/multiplekseri.vht|
+!i113 0
+Z21 o-work work
+R13
+Amultiplekseri_arch
+R3
+R4
+DEx4 work 21 multiplekseri_vhd_tst 0 22 6gHK3eDhK@I@J@@`Q6InY1
+!i122 1
+l19
+L6 45
+VK[Sd7>`eba0KQIWPZTTG]1
+!s100 ;U9OEkF:jSzXoL]Q5B0;A1
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R13

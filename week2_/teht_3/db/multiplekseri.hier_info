@@ -1,0 +1,8 @@
+|multiplekseri
+valitsin => Mux0.IN3
+valitsin => Mux0.IN2
+kytkin[0] => Mux0.IN5
+kytkin[1] => Mux0.IN4
+led <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

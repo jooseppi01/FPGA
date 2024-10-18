@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "segmentit_sekunnit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_sekunnit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_sekunnit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_sekunnit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_sekunnit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_sekunnit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_sekunnit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentit_kymmenet[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "resetti_button",
+					"strict" : false
+				},
+				{
+					"name" : "start_stop_button",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

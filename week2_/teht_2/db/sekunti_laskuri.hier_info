@@ -1,0 +1,43 @@
+|sekunti_laskuri
+clk => sec_counter[0].CLK
+clk => sec_counter[1].CLK
+clk => sec_counter[2].CLK
+clk => sec_counter[3].CLK
+clk => sec_counter[4].CLK
+clk => sec_counter[5].CLK
+clk => sec_counter[6].CLK
+clk => clk_counter[0].CLK
+clk => clk_counter[1].CLK
+clk => clk_counter[2].CLK
+clk => clk_counter[3].CLK
+clk => clk_counter[4].CLK
+clk => clk_counter[5].CLK
+clk => clk_counter[6].CLK
+clk => clk_counter[7].CLK
+clk => clk_counter[8].CLK
+clk => clk_counter[9].CLK
+clk => clk_counter[10].CLK
+clk => clk_counter[11].CLK
+clk => clk_counter[12].CLK
+clk => clk_counter[13].CLK
+clk => clk_counter[14].CLK
+clk => clk_counter[15].CLK
+clk => clk_counter[16].CLK
+clk => clk_counter[17].CLK
+clk => clk_counter[18].CLK
+clk => clk_counter[19].CLK
+clk => clk_counter[20].CLK
+clk => clk_counter[21].CLK
+clk => clk_counter[22].CLK
+clk => clk_counter[23].CLK
+clk => clk_counter[24].CLK
+clk => clk_counter[25].CLK
+led[0] <= sec_counter[0].DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= sec_counter[1].DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= sec_counter[2].DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= sec_counter[3].DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= sec_counter[4].DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= sec_counter[5].DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= sec_counter[6].DB_MAX_OUTPUT_PORT_TYPE
+
+

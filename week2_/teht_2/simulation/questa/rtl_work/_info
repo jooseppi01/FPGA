@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joona/Documents/Quartus_/week2_/teht_2/simulation/questa
+T_opt
+!s110 1725354707
+VOe:CD1F]OK4P;KTnAT:0@2
+04 23 20 work sekunti_laskuri_vhd_tst sekunti_laskuri_arch 1
+=1-d8f3bc69b4e3-66d6d2d3-159-44a0
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Esekunti_laskuri
+Z1 w1725354598
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/Joona/Documents/Quartus_/week2_/teht_2/sekunti_laskuri.vhd
+Z6 FC:/Users/Joona/Documents/Quartus_/week2_/teht_2/sekunti_laskuri.vhd
+l0
+L5 1
+V]nXN1geACGPB1=:`L92>U1
+!s100 mAcSGJ07QJ7;@CUj`Q[881
+Z7 OL;C;2021.2;73
+31
+Z8 !s110 1725354674
+!i10b 1
+Z9 !s108 1725354674.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week2_/teht_2/sekunti_laskuri.vhd|
+Z11 !s107 C:/Users/Joona/Documents/Quartus_/week2_/teht_2/sekunti_laskuri.vhd|
+!i113 0
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 15 sekunti_laskuri 0 22 ]nXN1geACGPB1=:`L92>U1
+!i122 0
+l18
+L14 30
+V]nY5Te_WRC[WfAc`oF[O23
+!s100 zXlMMk7:In95GHE:OBX271
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Esekunti_laskuri_vhd_tst
+Z14 w1725354112
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/Joona/Documents/Quartus_/week2_/teht_2/simulation/questa/sekunti_laskuri.vht
+Z16 FC:/Users/Joona/Documents/Quartus_/week2_/teht_2/simulation/questa/sekunti_laskuri.vht
+l0
+L31 1
+VeH6Gf9;bz[EX]Un7znR0b3
+!s100 AnSIk54oJa^cWF[aIUege0
+R7
+32
+Z17 !s110 1725354700
+!i10b 1
+Z18 !s108 1725354700.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week2_/teht_2/simulation/questa/sekunti_laskuri.vht|
+Z20 !s107 C:/Users/Joona/Documents/Quartus_/week2_/teht_2/simulation/questa/sekunti_laskuri.vht|
+!i113 0
+Z21 o-work work
+R13
+Asekunti_laskuri_arch
+R3
+R4
+DEx4 work 23 sekunti_laskuri_vhd_tst 0 22 eH6Gf9;bz[EX]Un7znR0b3
+!i122 1
+l45
+L34 31
+VTR5F`ASNgbNNa88L<B:4e1
+!s100 Y6dRC@HjQIImEGMY=aA6E1
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R13

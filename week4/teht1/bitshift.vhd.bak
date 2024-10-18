@@ -1,0 +1,52 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+-- Entity declaration
+entity template_entity is
+    Port ( clk : in STD_LOGIC;                -- Kellosignaali
+           reset : in STD_LOGIC;              -- Reset-signaali
+           start_button : in STD_LOGIC;        -- Käynnistysnappi
+           kytkimet : in STD_LOGIC_VECTOR(7 DOWNTO 0);       -- Sisääntulosignaali
+           led : out STD_LOGIC);    -- Ulostulosignaali
+end template_entity;
+
+-- Architecture declaration
+architecture Behavioral of template_entity is
+
+    -- Signaalit, jotka tarvitaan sisäiseen logiikkaan
+    signal bits_in : STD_LOGIC_VECTOR(7 DOWNTO 0);  -- Sisääntulosignaali
+    signal led_out : STD_LOGIC;  -- Ulostulo bitti
+    signal loop_count : integer range 0 to 7 := 0;  -- Laskuri
+    signal clock_divider : integer range 0 to 50000000 := 0;  -- Jakaja
+    
+begin
+
+    -- Prosessi, joka reagoi kellosignaalin ja resetin nouseviin reunoihin
+    process(clk, reset)
+    begin
+        if reset = '1' then
+            -- Alustetaan tilat reset-signaalilla
+            bits_in <= '0';
+            led_out <= '0';
+            loop_count <= 0;
+            clock_divider <= 0;
+        elsif rising_edge(clk) then
+            if start_button = '1' then
+                bits_in <= kytkimet;
+                if clock_divider = 50000000 then
+                    clock_divider <= 0;
+                    if loop_count < 8 then
+                        led_out <= bits_in(7);
+                        bits_in <= bits_in(6 DOWNTO 0) & '0';
+                        loop_count <= loop_count + 1;
+                    end if;
+                else
+                    clock_divider <= clock_divider + 1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+end Behavioral;

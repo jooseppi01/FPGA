@@ -1,0 +1,42 @@
+|fibonacci
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock => data_out[0]~reg0.CLK
+clock => data_out[1]~reg0.CLK
+clock => data_out[2]~reg0.CLK
+clock => data_out[3]~reg0.CLK
+clock => data_out[4]~reg0.CLK
+clock => data_out[5]~reg0.CLK
+clock => data_out[6]~reg0.CLK
+clock => data_out[7]~reg0.CLK
+clock => data_in[0].CLK
+clock => data_in[1].CLK
+clock => data_in[2].CLK
+clock => data_in[3].CLK
+clock => data_in[4].CLK
+clock => data_in[5].CLK
+clock => data_in[6].CLK
+clock => data_in[7].CLK
+clock => data_in[8].CLK
+clock => data_in[9].CLK
+clock => data_in[10].CLK
+clock => data_in[11].CLK
+clock => data_in[12].CLK
+clock => data_in[13].CLK
+clock => data_in[14].CLK
+clock => data_in[15].CLK
+clock => xor3.CLK
+clock => xor2.CLK
+clock => xor1.CLK
+clock => d.CLK
+clock => c.CLK
+clock => b.CLK
+clock => a.CLK
+
+

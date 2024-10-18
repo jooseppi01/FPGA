@@ -1,0 +1,88 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE std.textio.ALL;  -- Only use this for text IO
+
+ENTITY sinesig_vhd_tst IS
+END sinesig_vhd_tst;
+
+ARCHITECTURE sinesig_arch OF sinesig_vhd_tst IS
+
+    COMPONENT sinesig
+      PORT (
+            clk      : IN STD_LOGIC;
+            reset    : IN STD_LOGIC;
+            sine_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+      );
+    END COMPONENT;
+      
+    -- Signal declarations
+    SIGNAL clk      : STD_LOGIC := '0';
+    SIGNAL reset    : STD_LOGIC := '0';
+    SIGNAL sine_out : STD_LOGIC_VECTOR(7 DOWNTO 0);
+    
+    type t_sin_table is array (0 to 1023) of std_logic_vector(7 downto 0);
+    signal sin_table : t_sin_table;
+
+    FILE sine_file  : text;
+
+BEGIN
+    -- Instantiate the UUT (Unit Under Test)
+    i1 : sinesig
+        PORT MAP (
+            clk      => clk,
+            reset    => reset,
+            sine_out => sine_out
+        );
+
+    init : PROCESS
+        VARIABLE line_buf : line;
+        VARIABLE str      : string(1 to 8);  -- Ensure the string can hold 8 bits
+        VARIABLE idx      : INTEGER := 0;     -- Use a different variable name to avoid confusion
+    BEGIN
+        -- Ensure the file path is correct and escape backslashes
+        file_open(sine_file, "C:\Users\Joona\Documents\Quartus_\week6\simulation\questa\lut.txt.txt", READ_MODE);
+        wait for 30 ns;
+
+        -- Read values from the sine_file and assign them to the sin_table
+        WHILE NOT endfile(sine_file) LOOP
+            readline(sine_file, line_buf);  -- Read a line from the file
+            read(line_buf, str);            -- Read the line into the string
+            
+           
+			 FOR i IN 1 TO 8 LOOP
+				  if str(i) = '0' THEN
+						sin_table(idx)(8-i) <= '0';
+				  ELSE
+						sin_table(idx)(8-i) <= '1';
+				  END IF;
+			 END LOOP;
+			 idx := idx + 1;  -- Increment the index
+	
+
+			-- Ensure we do not exceed the sin_table bounds
+            IF idx >= 1024 THEN
+                exit;  -- Exit the loop if we fill up the table
+            END IF;
+        END LOOP;  
+        file_close(sine_file);
+        
+        wait for 10 ns;
+        reset <= '1';
+        wait for 20 ns;
+        reset <= '0';
+        
+        wait; 
+    END PROCESS init;
+
+    -- Clock generation process
+    always : PROCESS
+    BEGIN
+        LOOP
+            clk <= '0';
+            wait for 10 ns;
+            clk <= '1';
+            wait for 10 ns;
+        END LOOP;
+    END PROCESS always;
+
+END sinesig_arch;

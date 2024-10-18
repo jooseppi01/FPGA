@@ -1,0 +1,137 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Joona/Documents/Quartus_/week5/simulation/questa
+T_opt
+!s110 1727633023
+Vm_M_z7<;20B>N]AlHa07[2
+Z2 04 17 14 work fibonacci_vhd_tst fibonacci_arch 1
+=1-c0185030014f-66f9967e-39d-4840
+!s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+T_opt1
+!s110 1727631636
+V71OMcZf:[@Y1>I7<=jTLQ3
+04 9 10 work fibonacci behavioral 1
+R2
+=1-c0185030014f-66f99114-177-2cf4
+!s124 OEM10U3 
+R3
+R4
+n@_opt1
+R5
+R1
+Efibonacci
+Z6 w1727633010
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 46
+R1
+Z10 8C:/Users/Joona/Documents/Quartus_/week5/fibonacci.vhd
+Z11 FC:/Users/Joona/Documents/Quartus_/week5/fibonacci.vhd
+l0
+L5 1
+VQ1Q]lB^cBj67V3AgJQE9c1
+!s100 o]4;<JJ9kLIe4nQ4^m3@F0
+Z12 OL;C;2021.2;73
+31
+Z13 !s110 1727633014
+!i10b 1
+Z14 !s108 1727633014.000000
+Z15 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week5/fibonacci.vhd|
+Z16 !s107 C:/Users/Joona/Documents/Quartus_/week5/fibonacci.vhd|
+!i113 0
+Z17 o-93 -work work
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral
+R7
+R8
+R9
+DEx4 work 9 fibonacci 0 22 Q1Q]lB^cBj67V3AgJQE9c1
+!i122 46
+l15
+L11 22
+V:7R]>3:dPEzzZ5Z7Dn4fX1
+!s100 UjhPCU4n6Xc5cL09PUf`b1
+R12
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Efibonacci_vhd_tst
+Z19 w1727632770
+Z20 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R8
+R9
+!i122 47
+R1
+Z21 8C:/Users/Joona/Documents/Quartus_/week5/simulation/questa/fibonacci.vht
+Z22 FC:/Users/Joona/Documents/Quartus_/week5/simulation/questa/fibonacci.vht
+l0
+L6 1
+V;_U]Yh7;m`N6DmN^3aB6[2
+!s100 B1Jh63n3<_:>efnMVc0YR2
+R12
+32
+Z23 !s110 1727633018
+!i10b 1
+Z24 !s108 1727633018.000000
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week5/simulation/questa/fibonacci.vht|
+Z26 !s107 C:/Users/Joona/Documents/Quartus_/week5/simulation/questa/fibonacci.vht|
+!i113 0
+Z27 o-work work
+R18
+Afibonacci_arch
+R20
+R8
+R9
+DEx4 work 17 fibonacci_vhd_tst 0 22 ;_U]Yh7;m`N6DmN^3aB6[2
+!i122 47
+l26
+L9 60
+VEb^2KB7RYXMSkVcl:9mI[2
+!s100 ;9db515kj_elg?PSAJ]8Y0
+R12
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R27
+R18

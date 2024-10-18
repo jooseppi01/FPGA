@@ -1,0 +1,46 @@
+entity readWrite is
+    Port (
+           clk : in STD_LOGIC;           
+           reset_button : in STD_LOGIC;         
+           r_button : in STD_LOGIC;        -- Painonappi (aktiivinen matala)
+           w_button : in STD_LOGIC;
+           kytkin : in STD_LOGIC_VECTOR(7 downto 0); -- Vipukytkimet (8-bit)
+           osoite_kytkin : in STD_LOGIC_VECTOR(1 DOWNTO 0);
+           led_out : out STD_LOGIC_VECTOR(7 DOWNTO 0)  -- LED-ulostulo 
+          );
+end readWrite;
+
+architecture Behavioral of readWrite is
+    signal sana : STD_LOGIC_VECTOR(7 downto 0);  -- datan tallennus
+    signal osoite : std_logic_vector(1 downto 0) := "00";
+	 
+    type t_memory is array (255 downto 0) of std_logic_vector(7 downto 0);
+    signal memory: t_memory := (others => "00000000");
+
+begin
+
+    process(clk, reset_button)
+    begin
+        if reset_button = '0' then
+            -- Alustetaan osoite ja muisti resetoidessa
+            osoite <= "00";
+            memory <= (others => "00000000");
+
+        elsif rising_edge(clk) then
+            if w_button = '0' then
+                -- Kirjoitusmuistiin osoitteeseen osoite_kytkin
+                osoite <= osoite_kytkin;
+                memory(to_integer(unsigned(osoite))) <= kytkin;
+					 
+            elsif r_button = '0' then
+                -- Lukeminen osoitteesta osoite_kytkin
+                osoite <= osoite_kytkin;
+                sana <= memory(to_integer(unsigned(osoite)));
+            end if;
+        end if;
+    end process;
+
+    -- LED-ulostulo
+    led_out <= sana;
+
+end Behavioral;

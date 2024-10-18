@@ -1,0 +1,115 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Joona/Documents/Quartus_/week3/teht2/simulation/questa
+T_opt
+!s110 1726234784
+VQRmA0hNPFniA:[C41Fj:m2
+04 13 10 work teht2_vhd_tst teht2_arch 1
+=1-c0185030014f-66e4409f-1fa-4598
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eteht2
+Z2 w1726233903
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+R1
+Z7 8C:/Users/Joona/Documents/Quartus_/week3/teht2/teht2.vhd
+Z8 FC:/Users/Joona/Documents/Quartus_/week3/teht2/teht2.vhd
+l0
+L6 1
+V3cDkYN3@aV;=eI;=Jhgee3
+!s100 Bgb7L<D1mMd0F^z=nIT4X2
+Z9 OL;C;2021.2;73
+31
+Z10 !s110 1726233916
+!i10b 1
+Z11 !s108 1726233916.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week3/teht2/teht2.vhd|
+Z13 !s107 C:/Users/Joona/Documents/Quartus_/week3/teht2/teht2.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tShow_source 1 Explicit 1 NoCoverage 1 CvgOpt 0
+Abehavioral
+R3
+R4
+R5
+R6
+DEx4 work 5 teht2 0 22 3cDkYN3@aV;=eI;=Jhgee3
+!i122 7
+l24
+L16 107
+V`<GPEK^bboQ;PE?gV[3m]3
+!s100 fI2m=3:@RneVh0Z<J;ooo2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eteht2_vhd_tst
+Z16 w1726234771
+R5
+R6
+!i122 12
+R1
+Z17 8C:/Users/Joona/Documents/Quartus_/week3/teht2/simulation/questa/teht2.vht
+Z18 FC:/Users/Joona/Documents/Quartus_/week3/teht2/simulation/questa/teht2.vht
+l0
+L31 1
+V0QJBQdIOP49I1dLTKo`g:1
+!s100 j`8?7Y1FAW]6=ZKYl?z;X1
+R9
+32
+Z19 !s110 1726234778
+!i10b 1
+Z20 !s108 1726234778.000000
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week3/teht2/simulation/questa/teht2.vht|
+Z22 !s107 C:/Users/Joona/Documents/Quartus_/week3/teht2/simulation/questa/teht2.vht|
+!i113 0
+Z23 o-work work
+R15
+Ateht2_arch
+R5
+R6
+DEx4 work 13 teht2_vhd_tst 0 22 0QJBQdIOP49I1dLTKo`g:1
+!i122 12
+l52
+L34 69
+VR;1AMmBTWZWV?<K0l42k;1
+!s100 Dh;NCkCYDWNiHkeRRME?O3
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R23
+R15

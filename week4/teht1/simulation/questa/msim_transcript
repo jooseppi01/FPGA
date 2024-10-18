@@ -1,0 +1,190 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do bitshift_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Joona/Documents/Quartus_/week4/teht1/bitshift.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:48:04 on Sep 19,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/bitshift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitshift
+# -- Compiling architecture Behavioral of bitshift
+# End time: 18:48:05 on Sep 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:48:19 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# ** Error: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(63): near "'": syntax error
+# ** Error: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(70): near "WAIT": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(82): VHDL Compiler exiting
+# End time: 18:48:19 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:48:41 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# ** Error: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(63): near "'": syntax error
+# ** Note: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(82): VHDL Compiler exiting
+# End time: 18:48:41 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:49:13 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# ** Error: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(63): Integer literal 10100110 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(82): VHDL Compiler exiting
+# End time: 18:49:13 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/22.1std/questa_fse/win64/vcom failed.
+vcom -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:49:28 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# End time: 18:49:28 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.bitshift_vhd_tst
+# vsim -voptargs="+acc" work.bitshift_vhd_tst 
+# Start time: 18:49:31 on Sep 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bitshift_vhd_tst(bitshift_arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.bitshift(behavioral)#1
+add wave -position end  sim:/bitshift_vhd_tst/clk
+add wave -position end  sim:/bitshift_vhd_tst/kytkin
+add wave -position end  sim:/bitshift_vhd_tst/led_out
+add wave -position end  sim:/bitshift_vhd_tst/reset
+add wave -position end  sim:/bitshift_vhd_tst/start_nappi
+run
+run
+run
+run
+vcom -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:52:15 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# ** Error: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(70): near "start_nappi": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht(88): VHDL Compiler exiting
+# End time: 18:52:15 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/22.1std/questa_fse/win64/vcom failed.
+vcom -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:52:30 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# End time: 18:52:30 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.bitshift_vhd_tst
+# End time: 18:52:35 on Sep 19,2024, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.bitshift_vhd_tst 
+# Start time: 18:52:35 on Sep 19,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bitshift_vhd_tst(bitshift_arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.bitshift(behavioral)#1
+add wave -position end  sim:/bitshift_vhd_tst/clk
+add wave -position end  sim:/bitshift_vhd_tst/kytkin
+add wave -position end  sim:/bitshift_vhd_tst/led_out
+add wave -position end  sim:/bitshift_vhd_tst/reset
+add wave -position end  sim:/bitshift_vhd_tst/start_nappi
+run
+vcom -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 18:54:29 on Sep 19,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week4/teht1/simulation/questa/bitshift.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bitshift_vhd_tst
+# -- Compiling architecture bitshift_arch of bitshift_vhd_tst
+# End time: 18:54:29 on Sep 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.bitshift_vhd_tst
+# End time: 18:54:34 on Sep 19,2024, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.bitshift_vhd_tst 
+# Start time: 18:54:34 on Sep 19,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bitshift_vhd_tst(bitshift_arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.bitshift(behavioral)#1
+add wave -position end  sim:/bitshift_vhd_tst/clk
+add wave -position end  sim:/bitshift_vhd_tst/kytkin
+add wave -position end  sim:/bitshift_vhd_tst/led_out
+add wave -position end  sim:/bitshift_vhd_tst/reset
+add wave -position end  sim:/bitshift_vhd_tst/start_nappi
+run
+run
+run
+# End time: 19:04:45 on Sep 19,2024, Elapsed time: 0:10:11
+# Errors: 0, Warnings: 0

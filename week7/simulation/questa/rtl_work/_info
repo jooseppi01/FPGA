@@ -1,0 +1,111 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Joona/Documents/Quartus_/week7/simulation/questa
+T_opt
+!s110 1729152154
+VHoPHgA0OYjo0JO6LSXQ=F2
+04 11 8 work fir_vhd_tst fir_arch 1
+=1-c0185030014f-6710c499-247-48dc
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Efir
+Z2 w1729152129
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 12
+R1
+Z6 8C:/Users/Joona/Documents/Quartus_/week7/fir.vhd
+Z7 FC:/Users/Joona/Documents/Quartus_/week7/fir.vhd
+l0
+L5 1
+V[YM4ZMBAVHPQNoD0[dfJn1
+!s100 AeaXnZ1YQn<F@ZWPV=[]11
+Z8 OL;C;2021.2;73
+31
+Z9 !s110 1729152138
+!i10b 1
+Z10 !s108 1729152138.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week7/fir.vhd|
+Z12 !s107 C:/Users/Joona/Documents/Quartus_/week7/fir.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R3
+R4
+R5
+DEx4 work 3 fir 0 22 [YM4ZMBAVHPQNoD0[dfJn1
+!i122 12
+l19
+L14 38
+VlW6=3OaUMbRNU4a[GlZig1
+!s100 910Z5jLe=NH:7Z7^Ya8cC2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Efir_vhd_tst
+Z15 w1729149716
+R4
+R5
+!i122 13
+R1
+Z16 8C:/Users/Joona/Documents/Quartus_/week7/simulation/questa/fir.vht
+Z17 FC:/Users/Joona/Documents/Quartus_/week7/simulation/questa/fir.vht
+l0
+L4 1
+VES@O<hJIcj<RK65U98MRR3
+!s100 2EQ8NoC]TUT@JY=KXc@oU3
+R8
+32
+Z18 !s110 1729152139
+!i10b 1
+Z19 !s108 1729152139.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week7/simulation/questa/fir.vht|
+Z21 !s107 C:/Users/Joona/Documents/Quartus_/week7/simulation/questa/fir.vht|
+!i113 0
+Z22 o-work work
+R14
+Afir_arch
+R4
+R5
+DEx4 work 11 fir_vhd_tst 0 22 ES@O<hJIcj<RK65U98MRR3
+!i122 13
+l21
+L6 51
+V`[h6a74dMzhalh<GbodE50
+!s100 L4F:Uf0[mIaikWI7^B?Yi1
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R14

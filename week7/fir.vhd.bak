@@ -1,0 +1,62 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity FIR_Filter is
+    Port (
+        clk   : in  STD_LOGIC;
+        reset : in  STD_LOGIC;
+        x_in  : in  STD_LOGIC_VECTOR(15 downto 0); -- Input signal
+        y_out : out STD_LOGIC_VECTOR(15 downto 0)  -- Filtered output signal
+    );
+end FIR_Filter;
+
+architecture Behavioral of FIR_Filter is
+
+    -- Declare filter coefficients (for a 4-tap FIR filter)
+    constant COEFF_0 : integer := 1;
+    constant COEFF_1 : integer := 1;
+    constant COEFF_2 : integer := 1;
+    constant COEFF_3 : integer := 1;
+
+    -- Registers for delay elements
+    signal delay_0, delay_1, delay_2, delay_3 : signed(15 downto 0) := (others => '0');
+    signal sum : signed(17 downto 0) := (others => '0');  -- Use wider signal for sum to prevent overflow
+    signal avg : signed(15 downto 0) := (others => '0');  -- For the average output
+
+begin
+
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if reset = '1' then
+                -- Reset delay elements
+                delay_0 <= (others => '0');
+                delay_1 <= (others => '0');
+                delay_2 <= (others => '0');
+                delay_3 <= (others => '0');
+                sum <= (others => '0');
+                avg <= (others => '0');
+            else
+                -- Shift input samples through delay elements
+                delay_3 <= delay_2;
+                delay_2 <= delay_1;
+                delay_1 <= delay_0;
+                delay_0 <= signed(x_in);
+
+                -- Perform FIR filter sum operation (coefficients are 1 for a moving average)
+                sum <= delay_0 * COEFF_0 +
+                       delay_1 * COEFF_1 +
+                       delay_2 * COEFF_2 +
+                       delay_3 * COEFF_3;
+
+                -- Compute average by dividing by 4 (right shift by 2)
+                avg <= sum srl 2;  -- Right shift by 2 is equivalent to division by 4
+
+                -- Output the filtered result
+                y_out <= std_logic_vector(avg);
+            end if;
+        end if;
+    end process;
+
+end Behavioral;

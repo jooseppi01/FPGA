@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_out",
+					"strict" : false
+				},
+				{
+					"name" : "start_nappi",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[7]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+Millä kellotaajuudella piiri nyt toimii maksimissaan?
+
+	Ilman rekisteriä, piiri toimii maksimissaan noin. 198 MHz.
+	Lisärekisterin kanssa piiri toimii noin. 194 MHz.
+
+Mitä eroa on simulaation tuloksissa?
+	Simulaatiosta huomaa että lisärekisterin kanssa saadaan hieman viivettä tuloksiin.
+
+Ota screenshot RTL-vieweristä raporttiin. Vastaako tulos odotuksia?
+	Tulos vastaa odotuksia.

@@ -1,0 +1,107 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Joona/Documents/Quartus_/week4/teht2/simulation/questa
+T_opt
+!s110 1727168661
+VdCV6Pa=OR]8:OeTGP;Sa_2
+04 17 14 work readwrite_vhd_tst readwrite_arch 1
+=1-c0185030014f-66f28094-259-2188
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ereadwrite
+Z2 w1726858351
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z6 8C:/Users/Joona/Documents/Quartus_/week4/teht2/readWrite.vhd
+Z7 FC:/Users/Joona/Documents/Quartus_/week4/teht2/readWrite.vhd
+l0
+L5 1
+VC4BC25WFfo8NLDgKd=8i41
+!s100 ^3bA>LH:nG>C9zBgc_O:n3
+Z8 OL;C;2021.2;73
+31
+Z9 !s110 1727168189
+!i10b 1
+Z10 !s108 1727168189.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week4/teht2/readWrite.vhd|
+Z12 !s107 C:/Users/Joona/Documents/Quartus_/week4/teht2/readWrite.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R3
+R4
+R5
+DEx4 work 9 readwrite 0 22 C4BC25WFfo8NLDgKd=8i41
+!i122 0
+l23
+L18 28
+VUGo:Jn:B_cADTKdg>V=^>1
+!s100 k2MBg3C]?]X9iZPilfh<I3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ereadwrite_vhd_tst
+Z15 w1727168646
+R4
+R5
+!i122 7
+R1
+Z16 8C:/Users/Joona/Documents/Quartus_/week4/teht2/simulation/questa/readWrite.vht
+Z17 FC:/Users/Joona/Documents/Quartus_/week4/teht2/simulation/questa/readWrite.vht
+l0
+L4 1
+VIm4g^c=><jeD2J_>Bh1I30
+!s100 HBl_?>M?>VX>48O2hQnkn2
+R8
+32
+Z18 !s110 1727168656
+!i10b 1
+Z19 !s108 1727168655.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week4/teht2/simulation/questa/readWrite.vht|
+Z21 !s107 C:/Users/Joona/Documents/Quartus_/week4/teht2/simulation/questa/readWrite.vht|
+!i113 0
+Z22 o-work work
+Z23 tShow_source 1 Explicit 1 NoCoverage 1 CvgOpt 0
+Areadwrite_arch
+R4
+R5
+DEx4 work 17 readwrite_vhd_tst 0 22 Im4g^c=><jeD2J_>Bh1I30
+!i122 7
+l25
+L6 80
+V<g3VlWcQ8_:Y>PQS31RA:1
+!s100 ?3oA_[`Bj?T]bI:0GjA0h3
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23

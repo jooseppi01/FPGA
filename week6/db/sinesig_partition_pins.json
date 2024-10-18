@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sine_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sine_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[7]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[6]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[5]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[4]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[3]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[2]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[1]",
+					"strict" : false
+				},
+				{
+					"name" : "freq_tuning[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

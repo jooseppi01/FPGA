@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "kytkin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "valitsin",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
