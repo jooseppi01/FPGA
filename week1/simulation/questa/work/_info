@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joona/Documents/Quartus_/week1/simulation/questa
+Eweek1_laskin_tb
+w1724855528
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+8C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd
+FC:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd
+l0
+L4 1
+V9FGP<Tnmz5BZ?IfFo6L;21
+!s100 Sbg6Jmg=UNBK8BDOSeNCM0
+OL;C;2021.2;73
+32
+!s110 1724856373
+!i10b 1
+!s108 1724856372.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd|
+!s107 C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd|
+!i113 0
+o-work work -2002 -explicit
+tExplicit 1 CvgOpt 0

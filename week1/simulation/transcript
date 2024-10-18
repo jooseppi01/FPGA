@@ -1,0 +1,25 @@
+# Compile of Week1_Laskin.vhd was successful.
+# Compile of Week1_Laskin_testbench.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.week1_laskin_tb
+# vsim -gui work.week1_laskin_tb 
+# Start time: 16:37:46 on Aug 28,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.week1_laskin_tb(behavioral)#1
+add wave -position end sim:/week1_laskin_tb/*
+run -all
+# Break key hit
+run
+# Break key hit
+run -all
+# Break key hit
+run -all
+run -continue
+# Break key hit
+# End time: 16:58:28 on Aug 28,2024, Elapsed time: 0:20:42
+# Errors: 0, Warnings: 6

@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Joona/Documents/Quartus
+T_opt
+!s110 1724852268
+V;<JncbFcnZ5o?emEDX<_C0
+04 15 10 work week1_laskin_tb behavioral 1
+=1-c0185030014f-66cf282b-169-3fac
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eweek1_laskin
+Z0 w1724762544
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z5 dC:/Users/Joona/Documents/Quartus_/week1/simulation
+Z6 8C:/Users/Joona/Documents/Quartus_/week1/vhdl/Week1_Laskin.vhd
+Z7 FC:/Users/Joona/Documents/Quartus_/week1/vhdl/Week1_Laskin.vhd
+l0
+L5 1
+VRa]n6AFf7zHEm40cb:_UO1
+!s100 cMF5FTkgC^aHI>DUn=`9k2
+Z8 OL;C;2021.2;73
+32
+Z9 !s110 1724852236
+!i10b 1
+Z10 !s108 1724852235.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Joona/Documents/Quartus_/week1/vhdl/Week1_Laskin.vhd|
+Z12 !s107 C:/Users/Joona/Documents/Quartus_/week1/vhdl/Week1_Laskin.vhd|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+Z15 DEx4 work 12 week1_laskin 0 22 Ra]n6AFf7zHEm40cb:_UO1
+!i122 0
+l17
+L13 19
+Vi]0>m>[B6Dd0A8NRnY87;1
+!s100 fA;GFk2D`TzY8X0;`5jbl1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eweek1_laskin_tb
+Z16 w1724836075
+R3
+R4
+!i122 1
+R5
+Z17 8C:/Users/Joona/Documents/Quartus_/week1/testbenches/Week1_Laskin_testbench.vhd
+Z18 FC:/Users/Joona/Documents/Quartus_/week1/testbenches/Week1_Laskin_testbench.vhd
+l0
+L4 1
+V9FGP<Tnmz5BZ?IfFo6L;21
+!s100 Sbg6Jmg=UNBK8BDOSeNCM0
+R8
+32
+R9
+!i10b 1
+Z19 !s108 1724852236.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Joona/Documents/Quartus_/week1/testbenches/Week1_Laskin_testbench.vhd|
+Z21 !s107 C:/Users/Joona/Documents/Quartus_/week1/testbenches/Week1_Laskin_testbench.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R1
+R2
+R15
+R3
+R4
+DEx4 work 15 week1_laskin_tb 0 22 9FGP<Tnmz5BZ?IfFo6L;21
+!i122 1
+l13
+L7 38
+Vb7=VC3bl8[i5M3OeMco2H2
+!s100 XK:`^`=<Y:omn[C]QN5^i1
+R8
+32
+R9
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R13
+R14

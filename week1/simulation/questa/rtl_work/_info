@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joona/Documents/Quartus_/week1/simulation/questa
+T_opt
+!s110 1724917153
+V2fEgoGIRC1@?1[_RYF6k?1
+04 15 10 work week1_laskin_tb behavioral 1
+=1-c0185030014f-66d025a0-35f-1ef4
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Etesti
+Z1 w1724915547
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z6 8C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi1.vhd
+Z7 FC:/Users/Joona/Documents/Quartus_/week1/vhdl/testi1.vhd
+l0
+L5 1
+V<MSAo<@<a@[P[iT14NUK=3
+!s100 eG^14g;dIEoG7Tz_[LI`^2
+Z8 OL;C;2021.2;73
+31
+Z9 !s110 1724917040
+!i10b 1
+Z10 !s108 1724917040.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi1.vhd|
+Z12 !s107 C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi1.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+Z15 DEx4 work 5 testi 0 22 <MSAo<@<a@[P[iT14NUK=3
+!i122 0
+l17
+L13 19
+V^5[0dcLnleT;J3d5KnhbO3
+!s100 VcXH8Q4Xm?G5E8jVMfSIe0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eweek1_laskin_tb
+Z16 w1724855528
+R4
+R5
+!i122 1
+R0
+Z17 8C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd
+Z18 FC:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd
+l0
+L4 1
+V]a32UAYnW>ONE`_zSPXIi2
+!s100 Sbg6Jmg=UNBK8BDOSeNCM0
+R8
+32
+Z19 !s110 1724917130
+!i10b 1
+Z20 !s108 1724917130.000000
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd|
+Z22 !s107 C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd|
+!i113 0
+Z23 o-work work
+R14
+Abehavioral
+R2
+R3
+R15
+R4
+R5
+DEx4 work 15 week1_laskin_tb 0 22 ]a32UAYnW>ONE`_zSPXIi2
+!i122 1
+l13
+L7 38
+VTHb3znf4O]G1U[NS7l6c73
+!s100 ZGzKi[zaBaYkKLO02_[:I1
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R23
+R14

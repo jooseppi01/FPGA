@@ -1,0 +1,13 @@
+C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity week1_laskin_tb
+-- Compiling architecture Behavioral of week1_laskin_tb
+** Error: (vcom-11) Could not find work.testi.
+** Error (suppressible): C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd(15): (vcom-1195) Cannot find expanded name "work.testi".
+** Error: C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd(15): Unknown expanded name.
+** Note: C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd(44): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 11.0} {}}

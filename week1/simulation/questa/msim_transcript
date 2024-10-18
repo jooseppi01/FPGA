@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do testi_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi1.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:37:20 on Aug 29,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity testi
+# -- Compiling architecture Behavioral of testi
+# End time: 10:37:20 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:38:50 on Aug 29,2024
+# vcom -reportprogress 300 -work work C:/Users/Joona/Documents/Quartus_/week1/vhdl/testi_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity week1_laskin_tb
+# -- Compiling architecture Behavioral of week1_laskin_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity testi
+# End time: 10:38:50 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.week1_laskin_tb
+# vsim -gui -l msim_transcript work.week1_laskin_tb 
+# Start time: 10:39:12 on Aug 29,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.week1_laskin_tb(behavioral)#1
+# Loading work.testi(behavioral)#1
+add wave -position end  sim:/week1_laskin_tb/sw
+add wave -position end  sim:/week1_laskin_tb/led_sum
+add wave -position end  sim:/week1_laskin_tb/led_xor
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /week1_laskin_tb/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /week1_laskin_tb/uut
+# Causality operation skipped due to absence of debug database file
+# End time: 11:19:08 on Aug 29,2024, Elapsed time: 0:39:56
+# Errors: 0, Warnings: 2

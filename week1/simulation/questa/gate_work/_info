@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joona/Documents/Quartus_/week1/simulation/questa
+Ehard_block
+Z1 w1724856599
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 nmPFL[]@H2[7=WZj^ziPj1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 ^==5KQf0M3l@:0zl<j^BK3
+!i122 0
+R0
+Z8 8testi.vho
+Z9 Ftesti.vho
+l0
+L35 1
+VH73DDHU2ac^:D?]T;@N=M3
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OL;C;2021.2;73
+31
+Z11 !s110 1724856701
+!i10b 1
+Z12 !s108 1724856700.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|testi.vho|
+!s107 testi.vho|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 H73DDHU2ac^:D?]T;@N=M3
+!i122 0
+l76
+L54 28
+V:9n9ma92JRcO^oG6nb?k`2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+31
+R11
+!i10b 1
+R12
+R13
+Z16 !s107 testi.vho|
+!i113 0
+R14
+R15
+Etesti
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L89 1
+V7k4YWdkb?eHb7[kmW^NIz2
+!s100 19bjF;4d>glbC`dFg][h^3
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R16
+!i113 0
+R14
+R15
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 5 testi 0 22 7k4YWdkb?eHb7[kmW^NIz2
+!i122 0
+l173
+L117 514
+V[1jZPY@Y71Ej2onQn?ZD=0
+!s100 BJb7e8bm9;IAoE[Ta`:`@0
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R16
+!i113 0
+R14
+R15
