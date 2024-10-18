@@ -1,8 +1,9 @@
 # FPGA
 
 ## Tähän repositoryyn on lisätty kurssin FPGA Circuits and VHDL Language viikottaiset projektit
+- Kurssin tehtäviin käytimme Intel Quartus Prime ohjelmistoa ja Intel Questa simulaattoria.
 
-### Viikko 1
+## Viikko 1
 - Tee yksinkertainen laskin, joka laskee vipukytkinten arvoja yhteen, ja näyttää ledeillä. (4bittiä + 4bittiä, tulos on 5 lediä), sekä laskee samojen lukujen loogisen XOR-operaation ja näyttää sen eri ledeillä (4 lediä). Muokkaa esimerkkitestipenkkiä siten, että se soveltuu harjoituksen testaamiseen, eli kokeilee ainakin muutamia eri arvopareja, joilla nähdään piirin toimivan suunnitellusti.
 - Tee piiri, joka käyttää DE-10 Lite laudan kelloa (selvitä käyttöohjeesta), ja tuottaa sen avulla pulsseja LED:ille siten että jakson aika on yksi sekunti. Palauta raportti työstä docx tai pdf -muodossa, sekä lyhyt parin sekunnin video toimivasta piiristä
 ## Viikko 2
